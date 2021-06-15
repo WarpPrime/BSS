@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Bee Swarm Simulator v0.3</title>
+
+        <script type="text/javascript" src="field.js"></script>
+        <script type="text/javascript" src="notifications.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/siiimple-toast/dist/siiimple-toast.min.js"></script>
+
+        <link href="style.css" rel="stylesheet">
+        <link href="notification-style.css" rel="stylesheet">
+    </head>
+    <body style="padding: 20px" onload="init()">
+        <div class="column left">
+            <table style="border-collapse: collapse;" cellspacing=0">
+                <tbody id="field"></tbody>
+            </table>
+        </div>
+        <div class="column right">
+            <div class="bar">
+                <div id="pollenSlider"></div>
+            </div>
+            <div class="bar">
+                <div id="honey">&nbsp;&nbsp;&nbsp;&nbsp;0</div>
+            </div>
+        </div>
+        <details>
+            <summary>Changelog</summary>
+            <h2>v0.3</h2>
+            <li>Scooper tool functional, missing visuals</li>
+            <h2>v0.2</h2>
+            <li>Pollen collection visuals added</li>
+            <h2>v0.1</h2>
+            <li>Player added</li>
+            <li>Player movement added</li>
+            <h2>v0.0</h2>
+            <li>Flower generation added</li>
+            <li>Only Sunflower Field available</li>
+        </details>
+    </body>
+</html>

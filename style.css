@@ -1,0 +1,50 @@
+.column {
+    float: left;
+    display: flex;
+    padding-right: 20px;
+}
+/*
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 20%;
+}
+*/
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bar {
+    width: 300px;
+    background-color: rgb(100, 100, 100);
+    margin: 25px;
+}
+
+#pollenSlider {
+    width: 1px;
+    height: 30px;
+    background-color: rgb(90, 206, 23);
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(255,255,255);
+}
+
+#honey {
+    height: 30px;
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(238, 202, 82);
+}
+
+@font-face {
+    font-family: "Highway";
+    src: url('fonts/HWYGOTH.TTF');
+}
